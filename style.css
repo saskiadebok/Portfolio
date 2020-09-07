@@ -31,7 +31,7 @@
 
 .nav-container li {
     font-family: 'MyWebFont';
-    font-size: 15px;
+    font-size: 18px;
     position: relative;
     right: 0;
     display: inline-block;
@@ -41,20 +41,22 @@
 }
 
 .nav-container li:hover {
-    -webkit-transform: scale(1.20);
+    /* -webkit-transform: scale(1.20);
     -ms-transform: scale(1.20);
-    transform: scale(1.20); 
+    transform: scale(1.20);  */
 }
 
 .nav-container a {
     text-decoration: none;
     color: black;
     padding: 1vw;
+    transition: 0.5s;
 }
 
 .nav-container li a:hover {
-    text-decoration: none;
-    border: solid black 1px;
+    text-decoration: white;
+    color: white;
+    background: black;
 }
 
 .spacer1 {
@@ -87,9 +89,13 @@
 .heading h3 {
     position: relative;
     font-family: 'MyWebFont'; 
+    color: white;
+    background: black;
     font-size: 30px;
-    left: -10vw;
-    top: -50vh;
+    left: -11vw;
+    top: -51.5vh;
+    height: 2vw;
+    padding: 10px;
 }
 
 .line{
