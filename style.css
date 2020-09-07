@@ -68,8 +68,8 @@
     position: relative;
     max-width: fit-content;
     display: flex;
-    top: -4em;
-    left: 33.5vw;
+    top: -90px;
+    left: 31vw;
     justify-items: center;
     align-content: center;
     margin: auto;
@@ -91,10 +91,10 @@
     font-family: 'MyWebFont'; 
     color: white;
     background: black;
-    font-size: 30px;
-    left: -11vw;
-    top: -51.5vh;
-    height: 2vw;
+    font-size: 20px;
+    left: -9vw;
+    top: -52.8vh;
+    height: 20px;
     padding: 10px;
 }
 
