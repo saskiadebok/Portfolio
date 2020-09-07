@@ -70,7 +70,7 @@
 
 @font-face{
     font-family: 'MyWebFont';
-    src: url('./Content/font/msyi.ttf')  format('truetype');
+    src: url('/Content/font/msyi.ttf')  format('truetype');
 }
 
 .heading h1 {
