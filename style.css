@@ -1,4 +1,4 @@
-.background{
+.home{
     height: 100%;
     max-width: 100%;
     margin-top: 5em;
@@ -119,7 +119,7 @@
 
 .img1 {
     position: relative;
-    width: 35vw;
+    width: 56.5%;
     left: 25vw;
 }
 
@@ -130,4 +130,34 @@
     top: -19.7em;
     right: 3em;
     font-size: x-large;
+}
+
+.about_me {
+    scroll-behavior: smooth;
+    margin: 50px auto;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.manifesto {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.manifesto h1{
+    padding-top: 100px;
+    font-family: 'MyWebFont';
+    font-size: 50px;
+}
+
+.manifesto p{
+    font-family: 'MyWebFont';
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.manifesto img {
+    width: 25%;
 }
